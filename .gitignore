@@ -1,6 +1,10 @@
 *
-!src/
-!src/**
+!3rdReport/
+!3rdReport/**
+!4thReport/
+!4thReport/**
+!PastQue/
+!Pastque/**
 !*.html
 !*.htm
 !.gitignore
