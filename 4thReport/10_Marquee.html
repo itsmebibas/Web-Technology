@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Q10 - Marquee Examples</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 30px; background: #f9f9f9; }
+  h1 { text-align: center; }
+  h3 { margin-top: 30px; color: #333; }
+  .box { border: 2px solid #999; padding: 10px; margin-bottom: 20px; background: white; }
+  marquee { font-size: 18px; }
+</style>
+</head>
+<body>
+
+<h1>Marquee Tag Examples</h1>
+
+<h3>Example Scrolling Text (Left)</h3>
+<div class="box">
+  <marquee behavior="scroll" direction="left" scrollamount="5" style="color: blue; font-weight: bold;">
+  Welcome to Web Technology Lab! HTML is fun and powerful! 
+  </marquee>
+</div>
+
+<h3>Example Bouncing Text</h3>
+<div class="box">
+  <marquee behavior="alternate" direction="right" scrollamount="8" style="color: red; font-size: 22px;">
+  Bounce! Bounce! Bounce! 
+  </marquee>
+</div>
+
+<h3>Example Scrolling Up</h3>
+<div class="box" style="height: 80px; overflow: hidden;">
+  <marquee behavior="scroll" direction="up" scrollamount="3" style="color: green;">
+    Line 1: Nepal is beautiful 🇳🇵<br>
+    Line 2: Kathmandu is the capital<br>
+    Line 3: Mount Everest is here<br>
+    Line 4: Pokhara is amazing
+  </marquee>
+</div>
+<h3>Example Nested Marquee 1:</h3>
+<div class="box" style="height: 100px; overflow: hidden;">
+  <marquee behavior="scroll" direction="up" scrollamount="2" style="font-size: 16px; color: purple;">
+    <marquee behavior="alternate" direction="right" scrollamount="6" style="color: orange; font-weight: bold;">
+    I am scrolling sideways while moving up! 
+    </marquee>
+    <br><br>
+    <marquee behavior="scroll" direction="left" scrollamount="4" style="color: teal;">
+    Another inner marquee going left... 
+    </marquee>
+  </marquee>
+</div>
+</body>
+</html>

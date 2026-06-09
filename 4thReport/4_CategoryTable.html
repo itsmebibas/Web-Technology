@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Q4 - Category Table</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; }
+  table { border-collapse: collapse; width: 90%; }
+  th, td { border: 2px solid #555; padding: 10px; text-align: center; vertical-align: middle; }
+  .header-row th { background-color: crimson; color: white; }
+  .players-row { background-color: pink; }
+  .food-row { background-color: cyan; }
+  .places-row { background-color: orange; }
+  img { width: 120px; height: 90px; object-fit: cover; display: block; margin: 5px auto; }
+  .inner-table { border-collapse: collapse; width: 100%; }
+  .inner-table th, .inner-table td { border: 1px solid #333; padding: 4px 8px; font-size: 13px; }
+  a { color: blue; }
+</style>
+</head>
+<body>
+<table>
+  <tr class="header-row">
+    <th>Category</th>
+    <th>Image</th>
+    <th>List</th>
+    <th>Table</th>
+    <th>Link</th>
+  </tr>
+
+  <!-- Players -->
+  <tr class="players-row">
+    <td>Players</td>
+    <td>
+      <img src="https://imgs.search.brave.com/WUjUKB7pePu_R1VyYWrGJ2oHovQ1Q-fO8xGk6mvb6OI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4NTkw/NDcuanBn" alt="Dhoni">
+      <img src="https://imgs.search.brave.com/1XwrCijT4NX-mzGKFfh_-xCshTRA0f362nLfZ7P3aHA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDI0OTIx/MzAuanBn" alt="Ronaldo">
+    </td>
+    <td>1. Dhoni<br>2. Ronaldo</td>
+    <td>
+      <table class="inner-table">
+        <tr><th>Name</th><th>DOB</th><th>Famous For</th></tr>
+        <tr><td>Mahendra Singh Dhoni</td><td>1981</td><td>Cricket</td></tr>
+        <tr><td>Cristiano Ronaldo</td><td>1985</td><td>Football</td></tr>
+      </table>
+    </td>
+    <td><a href="https://en.wikipedia.org/wiki/MS_Dhoni" target="_blank">Dhoni</a><br><a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">Ronaldo</a></td>
+  </tr>
+
+  <!-- Food -->
+  <tr class="food-row">
+    <td>Food</td>
+    <td>
+      <img src="https://imgs.search.brave.com/RI_YIr23Q8UmOrGDrrSczMkIY34E3aGY2ONGOVbSiZE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L2ZyZWUtcGhvdG8v/aGFuZC1idXJnZXIt/Z2xvdmVzLWhvbGRp/bmctYmVlZi1idXJn/ZXItYmxhY2stYmFj/a2dyb3VuZF8xNDA3/MjUtMzAzLmpwZz9z/ZW10PWFpc190ZXN0/X2Imdz03NDAmcT04/MA" alt="Burger">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg" alt="Pizza">
+    </td>
+    <td>• Burger<br>• Pizza</td>
+    <td>
+      <table class="inner-table">
+        <tr><th>Name</th><th>Price</th></tr>
+        <tr><td>Burger</td><td>250</td></tr>
+        <tr><td>Pizza</td><td>340</td></tr>
+      </table>
+    </td>
+    <td><a href="https://en.wikipedia.org/wiki/Hamburger" target="_blank">Burger</a><br><a href="https://en.wikipedia.org/wiki/Pizza" target="_blank">Pizza</a></td>
+  </tr>
+
+  <!-- Places -->
+  <tr class="places-row">
+    <td>Places</td>
+    <td>
+      <img src="https://imgs.search.brave.com/MLdETGzLM76W01XhwauwaVyiMKxxU4UblD5inS0Tulo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzVi/NzM1MzQ4MjY2YzA3/NTEyNGIwZmZiMy8x/NTY4Mzc3NDU3ODQ5/LThUUTlQSFhBNlM3/Tkk1OUVFMllIL1N3/YXlhbWJodW5hdGhf/MTYxMTA2LTk3Lmpw/Zw" alt="Swayambhunath">
+      <img src="https://imgs.search.brave.com/5EpFeTv9vyPqxpBiBXkH3RK5-M9j9SysNA3xV8Y9Ch8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2Q4L1BoZXdhX0xh/a2VfLV9CZXNpZGVf/TGFrZXNpZGUuanBn" alt="Phewa Lake">
+    </td>
+    <td>-Swayambhunath<br>-Phewa Lake</td>
+    <td>
+      <table class="inner-table">
+        <tr><th>Name</th><th>Location</th></tr>
+        <tr><td>Swayambhunath</td><td>Kathmandu</td></tr>
+        <tr><td>Phewa Lake</td><td>Pokhara</td></tr>
+      </table>
+    </td>
+    <td><a href="https://en.wikipedia.org/wiki/Swayambhunath" target="_blank">Swayambhunath</a><br><a href="https://en.wikipedia.org/wiki/Phewa_Lake" target="_blank">Phewa Lake</a></td>
+  </tr>
+   <tr>
+        <td rowspan="2">Cars</td>
+        <td>
+<img src="https://imgs.search.brave.com/gSButd9RGxlyxvi5LvHri38wFFgH-3FtwLzsjzZlGRc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXV0b3Zpc3RhLmlu/L2Fzc2V0cy9wcm9k/dWN0X2ltYWdlcy9n/YWxsZXJ5L25ldy1i/YWxlbm8tZnJvbnQu/anBn" width="150">
+
+<img src="https://imgs.search.brave.com/EUlxmCCisMzVJvnntDG7JDNT2Ut8BteNE1jvaVV7aNA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMS5j/ZG4uYXV0b2V2b2x1/dGlvbi5jb20vaW1h/Z2VzL21vZGVscy9I/WVVOREFJX2kxMC0y/MDIzX21haW4uanBn" width="150">
+        </td>
+        <td>
+            <ul>
+                <li>Suzuki Baleno</li>
+                <li>Hyundai i10</li>
+            </ul>
+        </td>
+        <td>
+            <table border="1" cellspacing="0" cellpadding="8">
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>Suzuki Baleno</td>
+                    <td>Hatchback</td>
+                </tr>
+                <tr>
+                    <td>Hyundai i10</td>
+                    <td>Hatchback</td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <a href="https://www.nexaexperience.com/baleno">
+                Baleno
+            </a>
+            <br><br>
+            <a href="https://www.hyundai.com/in/en/find-a-car/grand-i10-nios">
+                Hyundai i10
+            </a>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

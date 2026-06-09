@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Q9 - Use of iframes</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; }
+  h1 { text-align: center; }
+  .frame-container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+  .frame-box { border: 3px solid #555; padding: 8px; text-align: center; }
+  .frame-box h3 { margin: 0 0 8px 0; font-size: 15px; }
+  iframe { display: block; }
+</style>
+</head>
+<body>
+<h1>IFRAME TAG USE</h1>
+<div class="frame-container">
+
+  <div class="frame-box">
+    <h3>Frame Wikipedia</h3>
+    <iframe src="https://en.wikipedia.org/wiki/Nepal" width="400" height="300" title="Wikipedia Nepal"></iframe>
+  </div>
+
+  <div class="frame-box">
+    <h3>Frame Google Map</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31625953!2d85.28493!3d27.70904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2C%20Nepal!5e0!3m2!1sen!2sus!4v1"
+      width="400" height="300" style="border:0;" loading="lazy" title="Kathmandu Map">
+    </iframe>
+  </div>
+
+  <div class="frame-box">
+    <h3>Frame YouTube</h3>
+    <iframe
+      src="https://www.youtube.com/embed/w0Xrn5a5b1g?si=LveGEJSDcM9YVbyg"
+      width="400" height="300"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      title="YouTube Video">
+    </iframe>
+  </div>
+
+</div>
+</body>
+</html>
