@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Srcset Example</title>
+</head>
+<body>
+
+    <h1>Image Srcset Example</h1>
+
+    <h2>Nature Image</h2>
+
+    <img 
+        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400"
+        
+        srcset="
+        https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300 300w,
+        https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 600w,
+        https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=900 900w"
+        
+        sizes="(max-width: 600px) 300px,
+        (max-width: 900px) 600px,
+        900px"
+
+        alt="Beautiful Nature"
+        title="Nature Image"
+        width="500"
+        height="300"
+    >
+    <br><br>
+    <h2>Mountain Image</h2>
+    <img 
+        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" 
+        srcset="
+        https://images.unsplash.com/photo-1519681393784-d120267933ba?w=250 250w,
+        https://images.unsplash.com/photo-1519681393784-d120267933ba?w=500 500w,
+        https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800 800w"
+        
+        sizes="(max-width: 500px) 250px,
+            (max-width: 800px) 500px,
+            800px"
+
+        alt="Mountain Image"
+        title="Mountain View"
+        width="500"
+        height="300"
+    >
+
+</body>
+</html>
