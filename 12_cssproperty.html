@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #border {
+        width: 200px;
+        height: 400px;
+        border-top: 10px dashed green;
+        color: red;
+        border-left: 5px solid gray;
+        border-right: 5px dotted black;
+        border-bottom: 10px ridge red;
+        cursor: grab;
+      }
+
+      #radius {
+        border: 10px solid blue;
+        border-radius: 0px 200px 0px 200px;
+        height: 410px;
+        width: 410px;
+        overflow: hidden;
+        cursor: progress;
+      }
+      #image {
+        border: 1px ridge red;
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        outline: 1px solid yellow;
+        cursor: crosshair;
+      }
+
+      #que {
+        cursor: help;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="border">
+      Learning to use different property of css:
+      <ol>
+        <li>Border</li>
+        <ul>
+          <li>solid</li>
+          <li>ridge</li>
+          <li>dotted</li>
+          <li>dashed</li>
+          <li>hidden</li>
+        </ul>
+        <li>Cursor</li>
+        <ul>
+          <li>Grab</li>
+          <li>not-allowed</li>
+          <li>text</li>
+          <li>help</li>
+          <li>zoom-in</li>
+          <li>zoom-out</li>
+          <li>resize</li>
+          <li>pointer</li>
+          <li>progress</li>
+          <li>crosshair</li>
+        </ul>
+      </ol>
+    </div>
+    <br />
+
+    <div id="radius">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      ratione repudiandae esse deserunt quas doloribus consectetur eaque ab
+      maxime natus.
+
+      <img id="image" src="https://picsum.photos/1920/1080" />
+    </div>
+    <p id="que">
+      Create a box model that includes your name on it.Border left=2px solid
+      red, border-right: 5px double green, border-top: 10px dash orange,
+      border-bottom: 20px dotted black. Margin=100, 50, 200. Padding: 200, 400,
+      50, 100; Also Calculate the exact height and width.
+    </p>
+    <div id="boxmodel"></div>
+  </body>
+</html>
