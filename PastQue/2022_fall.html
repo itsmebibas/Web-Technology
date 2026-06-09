@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 FALL SOLUTION OF HTML 2A</title>
+</head>
+<body>
+<form action="register.php" method="POST" enctype="multipart/form-data">
+<table border="1">
+    <tr>
+<th>Labels</th><th>Input Fields</th></tr>
+<tr><td><label for="fn">Full Name:</label></td>
+<td><input type="text" id="fn" name="fullname"></td></tr>
+<tr><td>Gender:</td>
+<td><input type="radio" name="gender" value="male" checked> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Others</td></tr>
+<tr><td><label for="em">Email:</label></td>
+<td><input type="email" id="em" name="email"></td></tr>
+<tr><td><label for="addr">Address:</label></td>
+<td><input type="text" id="addr" name="address"></td></tr>
+<tr><td>Choose Color:</td>
+<td><input type="color" name="favcolor"></td></tr>
+<tr><td>Upload Profile Picture:</td>
+<td><input type="file" name="photo" accept="image/*"></td></tr>
+<tr><td colspan="2">
+<input type="submit" value="Register" style="font-size: large;"></td></tr>
+</table></form>
+</body>
+</html>
